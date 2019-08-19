@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;    
+    border: 2px solid white; 
+    color:white;
+    height: 30px;
+}
+
+header ul {
+
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+header ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.active {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+

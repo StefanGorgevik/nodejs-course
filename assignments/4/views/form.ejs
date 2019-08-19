@@ -1,0 +1,15 @@
+<%- include("partials/head.ejs") %>
+</head>
+
+<body>
+        <%- include("partials/nav.ejs") %>
+        <h1>Enter user!</h1>
+        <form action="/admin/add-user" method="POST">
+            <label>Name
+            <input type="text" name="name" id="name"></label>
+            <button type="submit">Add User</button>
+        </form>
+<%- include("partials/end.ejs") %>
+
+  
+    
