@@ -11,7 +11,7 @@ const getProductsFromFile = cb => {
             cb(JSON.parse(fileContent));
         }
     })
-}
+};
 
 module.exports = class Product {
     constructor(title) {
